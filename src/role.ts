@@ -27,23 +27,11 @@ function hotel2 (order:{type:string; price:number; id:number}){
 }
 
 
-type Chai = {
-    name:string;
-    sugar?:number;
-}
-
 type Coffee = {
     type:string;
     size: "small" | "large";
 }
 
-type Order = Chai & Coffee
-
-const cup: Order = {
-    name:"newCup",
-    type:"order",
-    size:"small"
-}
 
 
 type Cpu = {
